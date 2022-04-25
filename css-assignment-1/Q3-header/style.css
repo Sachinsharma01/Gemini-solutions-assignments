@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background: aquamarine;
+  width: 100%;
+}

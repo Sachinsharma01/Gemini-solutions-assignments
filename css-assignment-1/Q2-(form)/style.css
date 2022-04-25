@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  background: aqua;
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+  
+}
+.header {
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background: aquamarine;
+  width: 100%;
+}
+.main-form {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+}
+
+.main-form .title-section {
+  border-style: double;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 60vw;
+}
+.form-inputs {
+  width: 500px;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 20px;
+}
+.inputs input {
+  width: 250px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.gender-inputs {
+  margin-top: 10px;
+  display: flex;
+  width: 50%;
+  gap: 0;
+}
+.gender-inputs input {
+  margin: 0;
+}
+.dob {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.dob input {
+  width: 40px;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.address input {
+  width: 250px;
+}
+.blood-group select {
+  margin-left: 162px;
+  margin-top: 20px;
+}
+.department-inputs,.course-inputs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.department-inputs input, .course-inputs input {
+  margin-left: 40px;
+}
+
+.course-input {
+  margin-top: 20px;
+  display: flex;
+  gap: 12.55rem;
+}
+
+.photo {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+

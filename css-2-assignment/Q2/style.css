@@ -1,0 +1,28 @@
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  body .main1 .box1 {
+    color: rgb(114, 41, 41);
+  }
+  
+  body .main1 .box2 {
+    color: rgb(85, 66, 162);
+  }
+  
+  .main2 .box3 {
+    color: rgb(114, 231, 96);
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+  }
+  
+  .main2 .box4 {
+    color: rgb(34, 34, 105);
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+  }

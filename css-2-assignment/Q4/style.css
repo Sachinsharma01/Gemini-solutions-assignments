@@ -1,0 +1,29 @@
+.main {
+    margin-left: 200px;
+}
+
+.hover-btn, .scale-btn, .skew-btn {
+    color: white;
+    background: blue;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    transition: transform linear ease-in-out .3s;
+
+}
+
+.hover-btn:hover {
+    background-color: indigo;
+    cursor: pointer;
+    transition: transform linear ease-in-out .3s;
+}
+
+.scale-btn:hover {
+    transform: scale(1.2);
+
+}
+
+.skew-btn:hover {
+    transform: skew(30deg, 20deg);
+}

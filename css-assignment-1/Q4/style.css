@@ -1,0 +1,85 @@
+.box-pink {
+    background: rgb(255, 0, 98);
+    height: 100px;
+    width: 100px;
+  }
+  
+  .box-green {
+    background: green;
+    height: 100px;
+    width: 100px;
+    position: static;
+  }
+  
+  .box-red {
+    position: relative;
+    background: red;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+  }
+  
+  .box-black {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: static;
+  }
+  
+  .container {
+    /* background: rgb(255, 132, 132); */
+    position: relative;
+  }
+  
+  .box-blue {
+    position: absolute;
+    background: rgb(0, 13, 255);
+    height: 100px;
+    width: 100px;
+    right: 5px;
+  }
+  .box-lightgreen {
+    background: rgb(40, 189, 35);
+    height: 100px;
+    width: 100px;
+  }
+  
+  .container2 {
+    position: relative;
+    /* background: rgb(255, 132, 132); */
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+  }
+  .box-violet {
+    background: violet;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 5px;
+  }
+  
+  .box-indigo {
+    background: rgb(37, 3, 62);
+    height: 100px;
+    width: 100px;
+  }
+  
+  p.inline {
+    display: inline;
+    color: red;
+  }
+  p.block {
+    display: block;
+    color: red;
+  }
+  p.inline-block {
+    display: inline-block;
+    color: red;
+  }
+  
+  img {
+    float: right;
+    height: 20vh;
+  }
